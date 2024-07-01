@@ -1,4 +1,4 @@
-export function FilesIcon(props) {
+export function FilesIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -19,7 +19,7 @@ export function FilesIcon(props) {
   );
 }
 
-export function LayoutDashboardIcon(props) {
+export function LayoutDashboardIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -41,7 +41,7 @@ export function LayoutDashboardIcon(props) {
   );
 }
 
-export function ListIcon(props) {
+export function ListIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -65,7 +65,7 @@ export function ListIcon(props) {
   );
 }
 
-export function ListTodoIcon(props) {
+export function ListTodoIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -88,7 +88,7 @@ export function ListTodoIcon(props) {
   );
 }
 
-export function LogInIcon(props) {
+export function LogInIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -109,7 +109,7 @@ export function LogInIcon(props) {
   );
 }
 
-export function MailsIcon(props) {
+export function MailsIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -130,7 +130,7 @@ export function MailsIcon(props) {
   );
 }
 
-export function MenuIcon(props) {
+export function MenuIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -151,7 +151,7 @@ export function MenuIcon(props) {
   );
 }
 
-export function ProjectorIcon(props) {
+export function ProjectorIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -175,7 +175,7 @@ export function ProjectorIcon(props) {
   );
 }
 
-export function ReplyIcon(props) {
+export function ReplyIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -195,7 +195,7 @@ export function ReplyIcon(props) {
   );
 }
 
-export function ServerIcon(props) {
+export function ServerIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -217,7 +217,7 @@ export function ServerIcon(props) {
   );
 }
 
-export function ViewIcon(props) {
+export function ViewIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -239,7 +239,7 @@ export function ViewIcon(props) {
   );
 }
 
-export function WebcamIcon(props) {
+export function WebcamIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
